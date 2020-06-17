@@ -5,7 +5,7 @@
 ## Usage
 
 ```typescript
-import { isOdd } from "https://deno.land/x/isOdd/mod.ts";
+import { isOdd } from "https://raw.githubusercontent.com/koji/deno-isOdd/mod.ts";
 
 const oddNum = isOdd(1);
 const evenNum = isOdd(2);
