@@ -26,7 +26,7 @@ jobs:
       - name: Setup Deno
         uses: denolib/setup-deno@master
         with:
-          deno-version: ${{ matrix.deno }}
+          deno-version: 1.0.0
 
       - name: Setup Node
         uses: actions/setup-node@master
