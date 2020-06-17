@@ -1,12 +1,14 @@
 import { assertEquals } from "./test_deps.ts";
 import { isOdd } from "./mod.ts";
 
+const { test } = Deno;
+
 // ok case
-Deno.test("isOdd-true", () => {
+test("isOdd-true", () => {
   assertEquals(isOdd(1), true);
 });
 
 // ng case
-Deno.test("isOdd-false", () => {
+test("isOdd-false", () => {
   assertEquals(isOdd(2), false);
 });
