@@ -3,7 +3,8 @@ import { isOdd } from "./mod.ts";
 
 const { test } = Deno;
 
-// ok case
+export const runTests = () => {
+  // ok case
 test("isOdd-true", () => {
   assertEquals(isOdd(1), true);
 });
@@ -12,3 +13,6 @@ test("isOdd-true", () => {
 test("isOdd-false", () => {
   assertEquals(isOdd(2), false);
 });
+
+}
+
