@@ -30,4 +30,4 @@ jobs:
         run: deno fmt *.ts
 
       - name: Run tests
-        run: deno test -A
+        run: deno test test.ts
