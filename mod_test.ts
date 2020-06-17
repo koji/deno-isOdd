@@ -5,14 +5,12 @@ const { test } = Deno;
 
 export const runTests = () => {
   // ok case
-test("isOdd-true", () => {
-  assertEquals(isOdd(1), true);
-});
+  test("isOdd-true", () => {
+    assertEquals(isOdd(1), true);
+  });
 
-// ng case
-test("isOdd-false", () => {
-  assertEquals(isOdd(2), false);
-});
-
-}
-
+  // ng case
+  test("isOdd-false", () => {
+    assertEquals(isOdd(2), false);
+  });
+};
